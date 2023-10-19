@@ -1,0 +1,32 @@
+// import './b'
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #007aa5;
+    align-items: center;
+    // color: white;
+    height: 60px;
+    padding: 0 20px;
+    &_logo{
+        h5{
+            color: white;
+            font-weight: 500;
+        }
+    }
+
+    &_logo{
+        color: white;
+        font-weight: 300;
+    }
+    &_button{
+        // background-color: whitesmoke;
+        margin-left: 10px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+    
+}
+
+

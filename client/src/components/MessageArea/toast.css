@@ -1,0 +1,39 @@
+.toast {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 16px;
+    max-width: 350px;
+    padding: 4px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2, top 0.2s, visibility 0.2s;
+}
+
+.toast--visible {
+    top: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.toast--success {
+    background: green;
+    border-color: greenyellow;
+}
+
+.toast--error {
+    background: red;
+    border-color: rebeccapurple;
+    color: white;
+}
